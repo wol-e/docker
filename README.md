@@ -31,5 +31,5 @@ To access the notebook, open this file in a browser:
 
 Copy that last URL from your terminal into your webbrowser and you should acces the jupyter server with root being the src directory of this repo. From there you can for example navigate to `notebooks` and run any notebook you find there.
 
-## TODO:
- - move the docker commands to make maybe, to make it as simple as `make run`.
+## Notes:
+ - TO make the usage more convenient ona can for example add a layer with `make`so that one just needs to run `make run` for example. Then all the docker comands are hidden. However, this also aims at educating howdocker works, so having it explicit is serving a purpose.
