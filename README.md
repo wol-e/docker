@@ -1,4 +1,4 @@
-# docker_jupyter
+# jupyter_docker
 
 Template for running a jupyter notebook within a docker container.
 
