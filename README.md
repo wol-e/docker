@@ -10,7 +10,7 @@ Initially run in the root directory (where the Dockerfile is):
 
 `docker build -t "jupyter_docker" .`
 
-This will create a docker image named `docker_jupyter`. Duringcreatin of the image, it will execute `my_script.py`, so you can do any preprocessing, data loading and such there.
+This will create a docker image named `docker_jupyter`. Duringcreatin of the image, it will execute `my_script.py`, so you can do any preprocessing, data loading and such things there (this is just for illustration purposes, feel free to delete it and remove the corresponding line in the Dockerfile). YOu can simply extend python dependencies by extending the [requirements.txt](src/requirements.txt)
 
 Then you can run this image with
 
@@ -31,6 +31,5 @@ To access the notebook, open this file in a browser:
 
 Copy that last URL from your terminal into your webbrowser and you should acces the jupyter server with root being the src directory of this repo. From there you can for example navigate to `notebooks` and run any notebook you find there.
 
-TODO: move the docker commands to make maybe, to make it as simple as `make run`.
-
-TODO: attach src as a volume ot docker, so that changes when working inside the caontainer are saved
+## TODO:
+ - move the docker commands to make maybe, to make it as simple as `make run`.
