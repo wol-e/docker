@@ -29,7 +29,7 @@ To access the notebook, open this file in a browser:
      or http://127.0.0.1:8888/?token=ac5168d0ebfcdd6d11b157ac18978108fafd2b431c607eae
 """
 
-Copy that last URL from your terminal into your webbrowser and you should see this root directory on the jupyter server. From there you can for example navigate to `notebooks` and run any notebook you find there.
+Copy that last URL from your terminal into your webbrowser and you should acces the jupyter server with root being the src directory of this repo. From there you can for example navigate to `notebooks` and run any notebook you find there.
 
 TODO: move the docker commands to make maybe, to make it as simple as `make run`.
 
