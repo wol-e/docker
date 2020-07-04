@@ -4,6 +4,9 @@ Clearly Jupyter is one of the most common Data Science tools. This template aims
 
 Docker is very popularly used for managing dependencies and services by isolating them in a fixed environemt. For me as a Data Scientist a great benefit is that I can package my dependencies easily together with the code of my individual  projects. Thus I don't have to manage any vitual environment anymore. Another benefit is that shared code can be run out of the box.
 
+## Requirements
+[docker](https://www.docker.com/)
+
 ## How to use:
 
 Initially run in the root directory (where the Dockerfile is):
