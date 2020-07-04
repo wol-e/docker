@@ -6,7 +6,7 @@ Template for running a jupyter notebook within a docker container.
 
 Initially run in the root directory (where the Dockerfile is):
 
-`docker build -t "docker_jupyter" .`
+`docker build -t "jupyter_docker" .`
 
 This will create a docker image named `docker_jupyter`. Duringcreatin of the image, it will execute `my_script.py`, so you can do any preprocessing, data loading and such there.
 
