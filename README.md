@@ -31,4 +31,5 @@ To access the notebook, open this file in a browser:
 Copy that last URL from your terminal into your webbrowser and you should see this root directory on the jupyter server. From there you can for example navigate to `notebooks` and run any notebook you find there.
 
 TODO: move the docker commands to make maybe, to make it as simple as `make run`.
+
 TODO: attach src as a volume ot docker, so that changes when working inside the caontainer are saved
