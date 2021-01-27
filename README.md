@@ -10,7 +10,7 @@ Initially run in the root directory (where the Dockerfile is):
 
 `docker build -t "jupyter_docker" .`
 
-This will create a docker image named `docker_jupyter`. Duringcreatin of the image, it will execute `my_script.py`, so you can do any preprocessing, data loading and such things there (this is just for illustration purposes, feel free to delete it and remove the corresponding line in the Dockerfile). YOu can simply extend python dependencies by extending the [requirements.txt](src/requirements.txt)
+This will create a docker image named `jupyter_docker`. Duringcreatin of the image, it will execute `my_script.py`, so you can do any preprocessing, data loading and such things there (this is just for illustration purposes, feel free to delete it and remove the corresponding line in the Dockerfile). You can simply extend python dependencies by extending the [requirements.txt](src/requirements.txt)
 
 Then you can run this image with
 
