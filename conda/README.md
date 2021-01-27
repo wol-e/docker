@@ -15,4 +15,4 @@ This will create a docker image named `conda_docker`.
 
 You can then enter a shell with conda available and additionally mounting your favourite directory /your/dir with
 
-`docker run -i -t  -v /your/dir:/wd conda_docker /bin/bash`.
+`docker run -i -t  -v /your/dir:/home/wd conda_docker /bin/bash`.
