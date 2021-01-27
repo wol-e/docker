@@ -15,9 +15,9 @@ This will create a docker image named `jupyter_docker`. Duringcreatin of the ima
 
 Then you can run this image with
 
-`docker run -p 8888:8888 -v </path/to/jupyter_docker/src>:/src jupyter_docker`
+`docker run -p 8888:8888 -v </path/to/jupyter_docker>:/wd jupyter_docker`
 
-Here replace </path/to/jupyter_docker/src> with your local path (or just use $PWD). This connects the port 8888 *inside the docker caontainer* with your local port 8888. So you can access the jupyter server within docker from your browser. Also it mounts the src directory of this repository to the src directory inside the docker container, so changes you do to this directory inside docker will be saved to the src directory on your local disk (i.e. you can save stuff you do on the jupyter server).
+Here replace </path/to/jupyter_docker> with your local path (or just use $PWD). This connects the port 8888 *inside the docker caontainer* with your local port 8888. So you can access the jupyter server within docker from your browser. Also it mounts the src directory of this repository to the src directory inside the docker container, so changes you do to this directory inside docker will be saved to the src directory on your local disk (i.e. you can save stuff you do on the jupyter server).
 
 After executing this, you will see some instructions like this:
 
