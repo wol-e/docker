@@ -1,3 +1,3 @@
 # Docker templates
 
-Some templates for running things which I use frequently with docker.
+Some templates for running things with docker.
