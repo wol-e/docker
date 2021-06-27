@@ -4,5 +4,5 @@ Using docker presumably is a good way to isolate applications on linux that may 
 
 ## list of environments
 
- - (xeyes)[./xeyes] Proof of concept for running GUI applications in docker
- - (jupyter)[./jupyter] Running a jupyter server with write access to host directory 
+ - [xeyes](./xeyes) Proof of concept for running GUI applications in docker
+ - [jupyter](./jupyter) Running a jupyter server with write access to host directory 
