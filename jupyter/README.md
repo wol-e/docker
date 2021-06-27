@@ -1,6 +1,6 @@
 # jupyter_docker
 
-This template provides an out of the box method to run a jupyter server from within a docker container.
+Run a jupyter server from within a docker container.
 
 ## Requirements
 [docker](https://www.docker.com/)
